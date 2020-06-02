@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tempest Monk" nameDescription="a tempest monk" race="blood" experience="8500" speed="250" >
+	<health now="15000" max="15000"/>
+	<look type="367" head="42" body="116" legs="116" feet="114" addons="3" corpse="20559"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-800"/>
+		<attack name="holy" interval="2000" chance="14" length="5" spread="0" min="-290" max="-660">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="30" radius="3" target="0" min="-440" max="-920">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="30" range="7" min="0" max="-780">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+		
+	</attacks>
+	<defenses armor="80" defense="80">
+		<defense name="speed" interval="2000" chance="15" speedchange="520" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="15" min="700" max="900">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element holyPercent="-5"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You've awakened the Tempest!"/>
+	</voices>
+	<loot>
+		<item name="Soul Orb" chance="35000"/>
+		<item name="Small Amethyst" countmax="3" chance="24950"/>
+		<item name="Small Diamond" countmax="3" chance="15700"/>
+		<item name="Small Emerald" countmax="3" chance="15110"/>
+		<item name="Blue Gem" chance="1060"/>
+		<item name="Soul Orb" chance="35000"/>
+		<item name="Knight Armor" chance="1980"/>
+		<item name="Golden Armor" chance="840"/>
+		<item name="Mastermind Shield" chance="620"/>
+		<item name="Heavy Mace" chance="460"/>
+		<item name="Lightning Legs" chance="460"/>
+		<item name="Knight Legs" chance="460"/>
+		<item name="Golden Legs" chance="460"/>
+		<item name="Cluster of Solace" chance="460"/>
+		<item name="Warrior Helmet" chance="460"/>
+		<item name="Tempest Shield" chance="60"/>
+		<item name="Glorious Axe" chance="460"/>
+		<item name="Blue Robe" chance="460"/>
+		<item name="Platinum Token" chance="460"/>
+	</loot>
+</monster>

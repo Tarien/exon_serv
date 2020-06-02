@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zip" script="Zip.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="128" head="38" body="113" legs="67" feet="95" addons="2" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			
+
+			
+			brocade bag, 9775, 5;
+			fishing rod, 2580, 150;
+			hand auger, 36169, 25;
+			machete, 2420, 40;
+			net, 36324, 50;
+			pick, 2553, 50;
+			present, 1990, 10;
+			rope, 2120, 50;
+			scroll, 1949, 5;
+			scythe, 2550, 50;
+			shovel, 2554, 50;
+			torch, 2050, 2;
+			valentine's card, 6538, 30;
+			watch, 6091, 20;
+			worm, 3976, 1;
+
+
+
+
+			<!-- Containers -->
+			brown backpack, 1988, 20; 
+			beach backpack, 5949, 20; 
+			blue backpack, 2002, 20; 
+			brocade backpack, 9774, 20; 
+			camouflage backpack, 3940, 20;
+			crown backpack, 10522, 800;
+			demon backpack, 10518, 1000;
+			dragon backpack, 11243, 200;
+			expedition backpack, 11241, 100;
+			fur backpack, 7342, 20;
+			golden backpack, 2004, 20;
+			green backpack, 1998, 20;
+			grey backpack, 2003, 20;
+			hearth backpack, 11119, 500;
+			minotaur backpack, 11244, 200;
+			orange backpack, 10519, 20;
+			purple backpack, 2001, 20;
+			red backpack, 2000, 20;
+			yellow backpack, 1999, 20;
+						
+
+			<!-- Creature Products -->
+			Fire Bug, 5468, 100;
+			Goat Grass, 2760, 50;
+			
+			Rust Remover, 9930, 50;
+			
+			
+			
+			<!-- Furniture -->
+			armor rack kit,6114,90;
+			barrel kit,3919,12;
+			big table kit,3911,30;
+			kit,3920,10;
+			birdcage kit,3922,50;
+			blue bed kit,7907,80;
+			blue pillow,1686,25;
+			blue tapestry,1872,25;
+			bookcase kit,6373,70;
+			box,1738,10;
+			canopy bed kit,20252,200;
+			chest,1740,10;
+			chimney kit,8692,200;
+			coal basin kit,3932,25;
+			crate,1739,10;
+			cuckoo clock,1877,40;
+			drawer kit,3915,18;
+			dresser kit,3916,25;
+			flower bowl,2102,6;
+			globe kit,3926,50;
+			goblin statue kit,3930,50;
+			god flowers,2100,5;
+			goldfish bowl,5928,50;
+			green bed kit,7904,80;
+			green cushioned chair kit,3902,40;
+			green pillow,1688,25;
+			green tapestry,1860,25;
+			harp kit,3934,50;
+			heart pillow,1685,30;
+			honey flower,2103,5;
+			indoor plant kit,3937,8;
+			knight statue kit,3928,50;
+			large amphora kit,3931,50;
+			locker kit,3917,30;
+			minotaur statue kit,3929,50;
+			orange tapestry,1866,25;
+			oven kit,6372,80;
+			pendulum clock kit,3927,75;
+			piece of royal satin,9678,200;
+			piano kit,3933,200;
+			picture,1852,50;
+			picture,1854,50;
+			picture,1853,50;
+			potted flower,2104,5;
+			purple tapestry,1857,25;
+			red bed kit,7906,80;
+			red cushioned chair kit,3901,40;
+			red pillow,1687,25;
+			red tapestry,1869,25;
+			rocking chair kit,3904,25;
+			rocking horse kit,3926,30;
+			round blue pillow,1690,25;
+			round purple pillow,1692,25;
+			round red pillow,1691,25;
+			round table kit,14328,25;
+			round turquoise pillow,1693,25;
+			small blue pillow,1681,20;
+			small green pillow,1679,20;
+			small orange pillow,1682,20;
+			small purple pillow,1678,20;
+			small red pillow,1680,20;
+			small table kit,3908,20;
+			small turquoise pillow,1683,20;
+			small white pillow,1684,20;
+			sofa chair kit,3905,55;
+			square table kit,14329,25;
+			table lamp kit,3924,35;
+			telescope kit,3925,70;
+			treasure chest,1746,1000;
+			trophy stand,7936,50;
+			trough kit,3918,7;
+			trunk kit,3920,10;
+			vase,2008,3,0;
+			wall mirror,1851,40;
+			wall mirror,1848,40;
+			wall mirror,1845,40;
+			water pipe,2099,40;
+			weapon rack kit,6115,90;
+			white tapestry,1880,25;
+			wooden chair kit,3903,15;
+			yellow bed kit,7905,80;
+			yellow pillow,1689,25;
+			yellow tapestry,1863,25;
+			venorean cabinet kit,20254,90;
+			venorean drawer kit,20257,40;
+			venorean wardrobe kit,20255,50
+			
+			"
+
+
+
+			/>
+			
+
+		<parameter key="shop_sellable" value="			
+			
+			rope,2120,8
+			
+			
+			" />
+	</parameters>
+</npc>

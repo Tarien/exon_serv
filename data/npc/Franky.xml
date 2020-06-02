@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Franky" script="Franky.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="153" head="76" body="77" legs="79" feet="115" addons="2" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			
+
+
+			<!-- ##Spellbooks -->
+			
+			 
+
+			<!-- Rods -->
+			
+			
+
+			<!-- Wands -->
+			
+
+			<!-- liquids -->
+			ultimate spirit potion, 26030, 420;
+			ultimate mana potion, 26029, 350;
+			supreme health potion, 26031, 625;
+
+			<!-- Runes -->
+			
+			
+			<!-- Tokens -->
+			Silver Token, 25172, 200000;
+			Gold Token, 25377, 400000
+			
+			
+			"
+			/>
+			
+
+		<parameter key="shop_sellable" value="	
+			<!-- Rubbish -->
+			rubbish, 2223, 429;
+			rubbish, 2242, 876;
+			stone rubbish, 2257, 4826;
+			crystal rubbish, 18554, 13429;
+			wooden trash, 2254, 679
+			
+			<!-- ##Spellbooks -->
+			
+			
+
+			<!-- Rods -->
+			
+
+
+			<!-- Wands -->
+			
+
+
+			<!-- liquids -->
+			
+			
+			"
+
+
+			/>
+	</parameters>
+</npc>

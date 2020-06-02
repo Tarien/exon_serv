@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Enraged Void Dweller" nameDescription="Enraged Void Dweller" race="blood" experience="15000" speed="250" script="rewardboss.lua">
+	<health now="35000" max="220000" />
+	<look type="1143" corpse="34793" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+	    <!-- <flag preyable="0"/> -->
+        <flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	
+	
+	
+	<attacks>
+			<attack name="melee" interval="2000" range="2" min="0" max="-900" />
+			<attack name="death" interval="2000" chance="20" range="7" length="6" spread="3" min="-220" max="-500">
+				<attribute key="shootEffect" value="poison" />
+		</attack>
+			<attack name="death" interval="2000" chance="30" range="3" length="6" spread="3" min="-80" max="-800">
+				<attribute key="areaEffect" value="mortarea" />
+		</attack>
+			<attack name="fire" interval="2000" chance="30" range="3" length="6" spread="3" min="-290" max="-500">
+				<attribute key="areaEffect" value="fire" />
+		</attack>
+			<attack name="Stone Shower" interval="2000" chance="10" range="7" min="-150" max="-200" />
+			<attack name="magic_wall_bomb" interval="2000" chance="50" target="1" range="7"/>
+		<attack name="firefield" interval="2000" chance="10" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="energyball"/>
+		</attack>
+	</attacks>
+		<defenses armor="20" defense="20" />
+		<defense name="healing" interval="2000" chance="35" min="250" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	<elements>
+	<element physicalPercent="30"/>
+		<element deathPercent="30"/>
+		<element energyPercent="50"/>
+		<element earthPercent="40"/>
+		<element icePercent="-10"/>
+		<element holyPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+		<immunity death="0" />
+		<immunity energy="1" />
+	</immunities>
+	<summons maxSummons="4">
+		<summon name="Void Entity" interval="2000" chance="50" max="4"/>
+	</summons>
+	<loot>		
+		<!--every-->
+		<item name="crystal coin" countmax="1" chance="100000000" />
+		<item name="blue gem" chance="100000000" />
+		<!--common-->
+		<item name="platinum coin" countmax="5" chance="29580" />
+		<item name="supreme health potion" countmax="20" chance="21540" />
+		<item name="ultimate spirit potion" countmax="20" chance="22540" />
+		<item id="7632" chance="28540" /> <!-- Giant Shimmering Pearl -->
+		<!--semi-rare-->
+		<item name="Gold Token" countmax="2" chance="15000" />
+		<item name="berserk potion" countmax="10" chance="8050" />
+		<item name="bullseye potion" countmax="10" chance="6780" />
+		<item id="26198" chance="23520" />  <!--collar of blue plasma -->
+		<item id="26200" chance="10590" />  <!-- collar of red plasma -->
+		<item name="red gem" chance="2580" />
+		<!--rare-->
+		<item name="Crunor Idol" chance="2640" />
+		<item name="Giant Ruby" chance="2840" />
+		<item name="Magic Sulphur" chance="2740" />
+		<item name="yellow gem" chance="2900" />
+		<item name="mastermind potion" countmax="10" chance="2900" />
+		<item name="violet gem" chance="1500" />
+		<!--very rare-->
+	</loot>
+</monster>

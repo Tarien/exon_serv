@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zap" script="Zap.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="39"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			
+
+			<!-- Rings -->
+			Energy Ring, 2167, 10000;
+			Sword Ring, 2207, 20000;
+			Axe Ring, 2208, 20000;
+			Club Ring, 2209, 20000;
+			Power Ring, 2166, 20000;
+			Time Ring, 2169, 20000;
+			Life Ring, 2168, 8000;
+			Ring of Healing, 2214, 20000;
+			Stealth Ring, 2165, 10000;
+			Dwarven Ring, 2213, 10000;
+			
+			
+			
+			
+			
+
+
+
+			<!-- Amulets and Necklaces -->
+			Ruby Necklace, 2133, 3560;
+			Dragon Necklace, 2201, 1000;
+			Garlic Necklace, 2199, 100;
+			Golden Amulet, 2130, 6600;
+			Scarf, 2661, 15;
+			Amulet of Loss, 2173, 50000;
+			Bronze Amulet, 2172, 100;
+			Elven amulet, 2198, 500;
+			Protection amulet, 2200, 700;
+			Silver Amulet, 2170, 100;
+			Stone Skin Amulet, 2197, 5000;
+			Strange Talisman, 2161, 100; 
+			
+			
+			Gold Coin, 2148, 2;
+			
+			Temple Teleport Scroll, 29019, 25000
+			
+			"
+
+
+			/>
+			
+
+		<parameter key="shop_sellable" value="			
+			
+			
+			
+				
+				
+			<!-- Amulets and Necklaces -->
+			Crystal Necklace, 2125, 400;
+			Ruby Necklace, 2133, 2000;
+			Wolf Tooth Chain, 2129, 100;
+			Wailing Widow/s Necklace, 11329, 3000;
+			Dragon Necklace, 2201, 100;
+			Garlic Necklace, 2199, 50;
+			Beetle Necklace, 11374, 1500;
+			Ancient Amulet, 2142, 200;
+			Demonbone Amulet, 14333, 32000;
+			Scarab Amulet, 2135, 200;
+			Platinum Amulet, 2171, 2500;
+			Amulet of loss, 2173, 45000;
+			Bronze Amulet, 2172, 50;
+			Elven amulet, 2198, 100;
+			Glacier amulet, 7888, 1500;
+			Leviathan/s amulet, 10220, 3000;
+			Lightning pendant, 7889, 1500;
+			Magma amulet, 7890, 1500;
+			Protection amulet, 2200, 100;
+			Sacred Tree Amulet, 10219, 3000;
+			Shockwave Amulet, 10221, 3000;
+			Silver Amulet, 2170, 50;
+			Stone Skin Amulet, 2197, 500;
+			Strange Talisman, 2161, 30;
+			Terra Amulet, 7887, 1500; 
+			glooth amulet, 23554, 2000;
+			
+			<!-- Gems -->
+			Small Diamond, 2145, 200;
+			Small Sapphire, 2146, 200;
+			Small Ruby, 2147, 200;
+			Small Emerald, 2149, 200;
+			Small Amethyst, 2150, 200;
+			Small Topaz, 9970, 200;
+			Talon, 2151, 200;
+			Violet Gem, 2153, 10000;
+			Yellow Gem, 2154, 2000;
+			Green Gem, 2155, 5000;
+			Red Gem, 2156, 1000;
+			Blue Gem, 2158, 4000;
+			Scarab Coin, 2159, 100;
+			Silver Brooch, 2134, 100;
+			Orichalcum Pearl, 5022, 300;
+			Giant Shimmering Pearl, 7632, 800;
+			Giant Shimmering Pearl, 7633, 500;
+			White Pearl, 2143, 150;
+			Black Pearl, 2144, 250;
+			Life Crystal, 2177, 1000;
+			rainbow quartz, 29038, 500;
+			green glass plate, 33984, 180;
+			violet glass plate, 33985, 180;
+			blue glass plate, 33983, 180;
+			prismatic quartz, 27630, 450;
+			opal, 24850, 500;
+			onyx chip, 24849, 500;
+			green crystal fragments, 18421, 800;
+			green crystal shard, 18415, 1500;
+			green crystal splinter, 18416, 400;
+			red crystal fragment, 18420, 800;
+			violet crystal shard, 18414, 1500;
+			brown crystal splinter, 18417, 400;
+			blue crystal shard, 18413, 1500;
+			blue crystal splinter, 18418, 400;
+			cyan crystal fragment, 18419, 800;
+			tiger eye, 27629, 350;
+			gold nugget, 2157, 850;
+			gold ingot, 9971, 5000;
+			
+			
+			
+			Platinum Coin, 2152, 90
+			
+			
+			
+			"
+
+
+			/>
+	</parameters>
+</npc>

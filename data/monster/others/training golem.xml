@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Training Golem" nameDescription="Training Golem" race="venom" experience="250" speed="300" manacost="32000">
+	<health now="50000" max="50000"/>
+	<look type="600" corpse="23343"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="0"/>
+	</attacks>
+	<defenses armor="3" defense="3">
+		<defense name="healing" interval="200" chance="30" min="300" max="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="300" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element physicalPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You.. Will be trained.."/>
+		<voice sentence="Bzz.. Bzz.. "/>
+		<voice sentence="Commencing self-distru..Training. Training commenced."/>
+	</voices>
+	<loot>
+		<item id="2050" chance="15000"/><!-- torch -->
+		<item name="gold coin" countmax="5" chance="50300"/>
+		<item name="mouldy cheese" chance="10000"/>
+		<item name="spear" chance="13000"/>
+		<item name="fishing rod" chance="60"/>
+		<item name="leather boots" chance="9500"/>
+		<item id="2667" chance="60000"/><!-- fish -->
+		<item name="troll green" chance="1200"/>
+		<item id="5901" chance="2140"/><!-- wood -->
+		<item name="swamp grass" chance="3100"/>
+		<item name="medicine pouch" chance="2160"/>
+	</loot>
+</monster>

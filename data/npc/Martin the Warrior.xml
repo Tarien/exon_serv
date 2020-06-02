@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<npc name="Martin the Warrior" script="Martin the Warrior.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100"/>
+	<look type="533" legs="101"/>
+	<parameters>
+		<!-- <parameter key="module_keywords" value="1" /> -->
+		<!-- <parameter key="keywords" value="bless;blessings" /> -->
+		<!-- <parameter key="keyword_reply1" value="I can grant you blessings such as {Wisdom} {of} {Solitude}, {Spark} {of} {The} {Phoenix}, our {Fire} {of} {Two} {Suns}, {Spiritual} {Shielding} and {The Embrace}. I can also grant you {all} of these blessings, just ask me." /> -->
+		<!-- <parameter key="keyword_reply2" value="I can grant you blessings such as {Wisdom} {of} {Solitude}, {Spark} {of} {The} {Phoenix}, our {Fire} {of} {Two} {Suns}, {Spiritual} {Shielding} and {The Embrace}. I can also grant you {all} of these blessings, just ask me." /> -->
+	</parameters>
+</npc>
